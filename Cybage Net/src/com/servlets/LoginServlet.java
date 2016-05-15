@@ -70,6 +70,7 @@ public class LoginServlet extends HttpServlet {
 					}
 					else
 					{
+						ck = cookies[0];
 						ck.setValue(Integer.toString(visitorCount));
 					}
 					response.addCookie(ck);

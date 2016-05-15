@@ -10,8 +10,8 @@
 <title>loginForm</title>
 </head>
 <body>
-<jsp:useBean id="userDto" class="com.dto.UserDto" scope="session"></jsp:useBean>
 <jsp:useBean id="loginDao" class="com.dao.LoginDao" scope="session"></jsp:useBean>
+<jsp:useBean id="userDto" class="com.dto.UserDto" scope="session"></jsp:useBean>
 <jsp:setProperty property="*" name="userDto"/>
 ${status}
 <form action="#" method="post">

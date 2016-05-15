@@ -1,0 +1,40 @@
+
+
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h1{ 
+	text-align:center;
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: navy;
+}
+
+
+table{
+text-align:center;
+font-family: Helvetica, Arial, sans-serif;
+width: 300px; 
+border-collapse: separate;
+collapse; border-spacing: 3mm;
+	
+}
+
+

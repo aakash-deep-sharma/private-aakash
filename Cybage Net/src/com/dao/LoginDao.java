@@ -17,7 +17,7 @@ public class LoginDao{
 	private Utility utill;
 	
 	public LoginDao() throws Exception {
-		utill=new Utility("jdbc:mysql://localhost/training","com.mysql.jdbc.Driver","root","root");
+		utill=new Utility("jdbc:oracle:thin:@localhost:1521:xe","oracle.jdbc.OracleDriver","system","system");
 		con = utill.getConnection();
 		pst = con.prepareStatement("select * from accounts where user_name=? and user_pass=?");
 	}
